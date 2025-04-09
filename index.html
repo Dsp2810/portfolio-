@@ -160,19 +160,17 @@
   <footer>
     <p>© 2025 Dhaval Patel. All rights reserved.</p>
   </footer>
-  <script>
+   <script>
     document.getElementById("contactForm").addEventListener("submit", function (event) {
       event.preventDefault();
-
+  
       const name = encodeURIComponent(document.getElementById("name").value);
       const email = encodeURIComponent(document.getElementById("email").value);
-      const message = encodeURIComponent(document.getElementById("message").value);
+      const message = encodeURIComponent(document.getElementById("message").value);  
       const mailtoLink = `mailto:dspatel0006@gmail.com?subject=New Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0AMessage:%0A${message}`;
-
       window.location.href = mailtoLink;
     });
-
   </script>
-</body>
+  </body>
 
 </html>
