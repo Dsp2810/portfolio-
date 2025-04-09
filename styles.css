@@ -399,3 +399,32 @@ footer {
     padding: 1.2rem;
   }
 }
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin: 1.2rem auto;
+  max-width: 850px;
+  border-radius: 12px;
+}
+
+.project {
+  background-color: #f7f9fc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.project h3 {
+  color: #0d47a1;
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+}
+
